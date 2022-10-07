@@ -35,7 +35,7 @@ int sort_part(int *array, int x, int y, int size);
 void quick_core(int *array, int x, int y, int size);
 void heapify(int *array, size_t i, size_t j, size_t size);
 void swap(int *array, int *x, int *y, size_t size);
-
+void cocktail_sort_list(listint_t **list);
 
 
 #endif
